@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "numrec"
+version = "0.1.0"
+description = ""
+authors = ["antoine.blancy <antoine.blancy@etu.hesge.ch>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+npm = "^0.1.1"
+nodejs = "^0.1.1"
+uvicorn = "^0.13.4"
+fastapi = "^0.65.1"
+pip = "^21.1.2"
+tensorflow = "^2.5.0"
+mypy = "^0.902"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
