@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body onload="initCanvas(700)">
+  <div>
+    
+  </div>
+  <div>
+    <canvas id="can" style="border: 2px solid black;">
+      
+    </canvas>
+    
+    
+  </div>
+  <script src="canvas.js"></script>
+  
+  <button onclick="initCanvas(700)">Reset</button>
+  <select id="selector">
+    <option>0</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>7</option>
+    <option>8</option>
+    <option>9</option>
+  </select>
+  <button onclick="sendTrainingTable()">Send</button>
+  <button onclick="trainFromFiles()">Train From Files</button>
+  <a href="index.html">Guesser</a>
+  
+  
+</body>
+
+</html>
